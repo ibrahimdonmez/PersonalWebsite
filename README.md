@@ -1,3 +1,3 @@
 ## Kişisel Websitesi
 
-![Alt text](/src/props/personalWebsite.jpg)
+![Alt text](/src/components/props/personalWebsite.jpg)
