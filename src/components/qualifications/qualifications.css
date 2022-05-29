@@ -9,8 +9,8 @@ body{
   display: flex;
   justify-content:center;
   align-items: center;
-  min-height: 100vh;
-  background: #212121;
+    /* min-height: 100vh; */
+    background: #212121;
   font-family: sans-serif;
 }
 .box{
@@ -101,3 +101,30 @@ color: #f38695;
 display: block;
 margin-top: 5px;
  } 
+
+ .home-container{
+  position: relative;
+    /* min-height: 100vh; */
+    padding: 50px 40px;
+  margin-top: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border-radius: 10px;
+  width: var(--pc-width);
+  color: var(--text-pri);
+  padding: 10px 40px;
+  margin: 5px auto;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qualifications-container{
+  padding-top:10%;
+}
