@@ -19,6 +19,7 @@ export const tr = {
         "FooterText": "Hepsi Bu Kadar :)",
         "GoTopOfPageText": "Yukarı Çık",
         "GoDownOfPageText": "Aşağı İn",
+        "CVFileName": "/CV_ibrahimDONMEZ_tr.pdf",
     }
 }
 

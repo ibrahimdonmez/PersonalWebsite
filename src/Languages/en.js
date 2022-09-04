@@ -19,6 +19,7 @@ export const en = {
         "FooterText": "That İs All :)",
         "GoTopOfPageText": "Go To Top Of Page",
         "GoDownOfPageText": "Go To Bottom Of Page",
+        "CVFileName": "/CV_ibrahimDONMEZ_en.pdf",
     }
 }
 

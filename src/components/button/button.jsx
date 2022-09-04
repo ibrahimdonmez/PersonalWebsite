@@ -9,7 +9,7 @@ function Buttons (){
             <a href="#about" className="btn pri">
                 {t("Section1Button1Text")}
             </a>
-            <a href="/CV_ibrahimDONMEZ.pdf" download className="btn pri">
+            <a href={t("CVFileName")} download className="btn pri">
                 {t("Section1Button2Text")}
             </a>
             <a href="#contact" className="btn sec">
