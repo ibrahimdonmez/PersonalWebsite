@@ -1,12 +1,15 @@
 import "./contact.css";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { AiOutlineWhatsApp } from "react-icons/ai";
-import { AiOutlineInstagram } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
+import { useTranslation } from "react-i18next";
 
 function Contact() {
+  const { t } = useTranslation();
+
   return (
     <div id="contact" className="container contact-container">
-      <h1>Benimle İletişime Geç</h1>
+      <h1>{t("Section3Title")}</h1>
       <div className="contact-links">
         <a
           href="https://www.youtube.com/channel/UCKUNyQrj7q-3G5Y5Gf-xycA"
@@ -15,7 +18,7 @@ function Contact() {
         >
           <AiOutlineYoutube className="icon" />
           <h2>
-            Youtube <span>İçerik Üretici</span>
+            Youtube <span>{t("Section3Button1Content")}</span>
           </h2>
         </a>
 
@@ -31,14 +34,14 @@ function Contact() {
         </a>
 
         <a 
-           href="https://www.instagram.com/6ibrahimm/" 
-           className="contact instagram"
+           href="https://www.linkedin.com/in/ibrahim-d%C3%B6nmez-821996168/" 
+           className="contact Linkedin"
            target={"blank"}   
         >
            
-          <AiOutlineInstagram className="icon" />
+          <AiFillLinkedin className="icon" />
           <h2>
-            instagram <span>6ibrahimm</span>
+            Linkedin <span>İbrahim Dönmez</span>
           </h2>
         </a>
       </div>

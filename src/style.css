@@ -5,7 +5,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   text-decoration: none;
   color: white;
   z-index: 1;
@@ -16,6 +15,14 @@ body {
     /* min-height: 100vh; */
     font-family: "Inter", sans-serif;
   animation: move 1s linear infinite forwards;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+    /* min-height: 100vh; */
+    background: #212121;
+  font-family: sans-serif;
 }
 
 html {
@@ -37,7 +44,7 @@ body::after {
   left: 250px;
   height: 200px;
   width: 200px;
-  background: rgb(183, 0, 255);
+  background: rgb(255, 0, 89);
   filter: blur(140px);
 }
 .bg-circle1 {
@@ -46,7 +53,7 @@ body::after {
   right: 0px;
   height: 200px;
   width: 200px;
-  background: rgb(0, 255, 255);
+  background: rgb(10, 255, 121);
   filter: blur(140px);
 }
 .bg-circle2 {
@@ -55,7 +62,7 @@ body::after {
   right: 250px;
   height: 200px;
   width: 200px;
-  background: rgb(183, 0, 255);
+  background: rgb(255, 0, 89);
   filter: blur(150px);
 }
 ::-webkit-scrollbar {

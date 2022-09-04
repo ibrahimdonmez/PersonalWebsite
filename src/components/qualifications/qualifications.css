@@ -1,18 +1,12 @@
+.QualificationsPage{
+  padding-top: 10%;
+}
+
 .quali-text {
   font-size: 20px;
   top: 10px;
 }
 
-body{
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-    /* min-height: 100vh; */
-    background: #212121;
-  font-family: sans-serif;
-}
 .box{
   width: 1200px;
   display: grid;
@@ -55,7 +49,7 @@ box-shadow: 0 2px 20px rgba(0,0,0,.2);
 position: absolute;
 top: 10px;
 left: 10px;
-bottom: 10px;
+bottom: 50px;
 right: 10px;
 background: #222;
 transition: 0.5s;
@@ -80,7 +74,7 @@ z-index: 1;
     position: absolute;
     left: 10px;
     right: 10px;
-    bottom: 10px;
+    bottom: 20px;
     height: 60px;
     text-align: center;
 }
@@ -88,16 +82,17 @@ z-index: 1;
 .card .details h2{
  margin: 0;
  padding: 0;
- font-weight: 600;
+ font-weight: bold;
  font-size: 20px;
  color: #777;
  text-transform: uppercase;
 } 
 
 .card .details h2 span{
-font-weight: 500;
-font-size: 16px;
-color: #f38695;
+font-weight: bold;
+font-size: 15px;
+color: #00070c;
+font-weight: 600;
 display: block;
 margin-top: 5px;
  } 
@@ -127,4 +122,24 @@ margin-top: 5px;
 
 .qualifications-container{
   padding-top:10%;
+}
+
+@media (max-width: 1400px) {
+  .box{
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 15px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .box{
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 15px;
+    margin: 0 auto;
+  }
 }

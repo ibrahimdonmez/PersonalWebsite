@@ -45,3 +45,20 @@
     font-family: "Open Sans";
     letter-spacing: 1px;
 }
+
+.header-container .languages{
+    width: 100%;
+}
+
+.header-container .languages .language-img{
+    width: 40px;
+    height: 25px;
+}
+
+.header-container .languages button{
+    cursor: pointer;
+    background: none;
+    border: none;
+    margin-left: 1%;
+    margin-right: 1%;
+}
